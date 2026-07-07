@@ -1,0 +1,90 @@
+<svg viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Fira Code',sans-serif">
+  <defs>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c2333"/>
+      <stop offset="100%" stop-color="#131a2b"/>
+    </linearGradient>
+    <style>
+      .bg { fill: #0d1117; }
+      .node { fill: url(#nodeGrad); stroke: #30363d; stroke-width: 1.5; }
+      .nodeTitle { fill: #e6edf3; font-size: 14px; font-weight: 600; }
+      .nodeSub { fill: #8b949e; font-size: 11px; }
+      .flowPath { fill: none; stroke: #30363d; stroke-width: 2; }
+      .particle { filter: drop-shadow(0 0 3px currentColor); }
+
+      @keyframes flow1 { 0%{ offset-distance: 0%; opacity:0 } 5%{opacity:1} 95%{opacity:1} 100%{ offset-distance: 100%; opacity:0 } }
+      @keyframes flow2 { 0%{ offset-distance: 0%; opacity:0 } 5%{opacity:1} 95%{opacity:1} 100%{ offset-distance: 100%; opacity:0 } }
+
+      .p-aws   { offset-path: path("M 150,70 C 260,70 260,150 380,150");  animation: flow1 3s linear infinite; color:#FF9900; fill:#FF9900; }
+      .p-azure { offset-path: path("M 150,150 C 260,150 260,150 380,150"); animation: flow1 3s linear infinite 0.5s; color:#0072C6; fill:#0072C6; }
+      .p-gcp   { offset-path: path("M 150,230 C 260,230 260,150 380,150"); animation: flow1 3s linear infinite 1s; color:#4285F4; fill:#4285F4; }
+
+      .p-tf    { offset-path: path("M 460,150 C 520,150 520,150 580,150"); animation: flow2 2.4s linear infinite; color:#7C4DFF; fill:#7C4DFF; }
+
+      .p-k8s1  { offset-path: path("M 660,150 C 720,150 720,80 780,80");  animation: flow2 2.6s linear infinite; color:#326CE5; fill:#326CE5; }
+      .p-k8s2  { offset-path: path("M 660,150 C 720,150 720,150 780,150"); animation: flow2 2.6s linear infinite 0.6s; color:#326CE5; fill:#326CE5; }
+      .p-k8s3  { offset-path: path("M 660,150 C 720,150 720,220 780,220"); animation: flow2 2.6s linear infinite 1.2s; color:#326CE5; fill:#326CE5; }
+
+      @keyframes pulseNode { 0%,100%{ stroke-opacity:0.5 } 50%{ stroke-opacity:1 } }
+      .node { animation: pulseNode 4s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1000" height="320" rx="16"/>
+
+  <!-- connecting paths (static guide lines) -->
+  <path class="flowPath" d="M 150,70 C 260,70 260,150 380,150"/>
+  <path class="flowPath" d="M 150,150 C 260,150 260,150 380,150"/>
+  <path class="flowPath" d="M 150,230 C 260,230 260,150 380,150"/>
+  <path class="flowPath" d="M 460,150 C 520,150 520,150 580,150"/>
+  <path class="flowPath" d="M 660,150 C 720,150 720,80 780,80"/>
+  <path class="flowPath" d="M 660,150 C 720,150 720,150 780,150"/>
+  <path class="flowPath" d="M 660,150 C 720,150 720,220 780,220"/>
+
+  <!-- moving particles -->
+  <circle class="particle p-aws"   r="4"/>
+  <circle class="particle p-azure" r="4"/>
+  <circle class="particle p-gcp"   r="4"/>
+  <circle class="particle p-tf"    r="5"/>
+  <circle class="particle p-k8s1"  r="4"/>
+  <circle class="particle p-k8s2"  r="4"/>
+  <circle class="particle p-k8s3"  r="4"/>
+
+  <!-- source nodes -->
+  <rect class="node" x="30" y="45" width="120" height="50" rx="10"/>
+  <text class="nodeTitle" x="90" y="66" text-anchor="middle">AWS</text>
+  <text class="nodeSub" x="90" y="82" text-anchor="middle">EKS · EC2 · RDS</text>
+
+  <rect class="node" x="30" y="125" width="120" height="50" rx="10"/>
+  <text class="nodeTitle" x="90" y="146" text-anchor="middle">Azure</text>
+  <text class="nodeSub" x="90" y="162" text-anchor="middle">AKS · DevOps</text>
+
+  <rect class="node" x="30" y="205" width="120" height="50" rx="10"/>
+  <text class="nodeTitle" x="90" y="226" text-anchor="middle">GCP</text>
+  <text class="nodeSub" x="90" y="242" text-anchor="middle">GKE · Cloud Run</text>
+
+  <!-- terraform node -->
+  <rect class="node" x="380" y="120" width="150" height="60" rx="10"/>
+  <text class="nodeTitle" x="455" y="145" text-anchor="middle">Terraform IaC</text>
+  <text class="nodeSub" x="455" y="163" text-anchor="middle">GitHub Actions CI/CD</text>
+
+  <!-- kubernetes node -->
+  <rect class="node" x="580" y="120" width="150" height="60" rx="10"/>
+  <text class="nodeTitle" x="655" y="145" text-anchor="middle">Kubernetes</text>
+  <text class="nodeSub" x="655" y="163" text-anchor="middle">Zero-downtime rollout</text>
+
+  <!-- observability nodes -->
+  <rect class="node" x="780" y="55" width="180" height="50" rx="10"/>
+  <text class="nodeTitle" x="870" y="76" text-anchor="middle">Prometheus + Grafana</text>
+  <text class="nodeSub" x="870" y="92" text-anchor="middle">15+ alerting rules</text>
+
+  <rect class="node" x="780" y="125" width="180" height="50" rx="10"/>
+  <text class="nodeTitle" x="870" y="146" text-anchor="middle">ELK Stack</text>
+  <text class="nodeSub" x="870" y="162" text-anchor="middle">Centralized logging</text>
+
+  <rect class="node" x="780" y="195" width="180" height="50" rx="10"/>
+  <text class="nodeTitle" x="870" y="216" text-anchor="middle">SonarQube + Trivy + Vault</text>
+  <text class="nodeSub" x="870" y="232" text-anchor="middle">DevSecOps gate</text>
+
+  <text x="500" y="295" text-anchor="middle" class="nodeSub">99.9% uptime across 15+ production services · zero-downtime blue-green deployments</text>
+</svg>
