@@ -1,0 +1,96 @@
+<svg viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','Consolas','Courier New',monospace">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#131a2b"/>
+    </linearGradient>
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="50%" stop-color="#7ee787"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
+    </linearGradient>
+    <style>
+      .win { fill: url(#bgGrad); }
+      .border { fill: none; stroke: url(#borderGlow); stroke-width: 1.5; opacity: 0.55; }
+      .dot { }
+      .titlebar-text { fill: #8b949e; font-size: 13px; }
+      .prompt { fill: #7ee787; font-size: 15px; }
+      .path { fill: #58A6FF; font-size: 15px; }
+      .out { fill: #c9d1d9; font-size: 15px; }
+      .dim { fill: #8b949e; font-size: 15px; }
+      .ok { fill: #3fb950; font-size: 15px; font-weight: bold; }
+      .cursor { fill: #7ee787; }
+
+      @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+      .cursorBlink { animation: blink 1s steps(1) infinite; }
+
+      @keyframes glowPulse { 0%,100%{opacity:0.35} 50%{opacity:0.85} }
+      .border { animation: glowPulse 3s ease-in-out infinite; }
+
+      /* Each line gets its own keyframes so the stagger repeats identically forever */
+      @keyframes l0 { 0%,3%{opacity:0} 5%{opacity:1} 92%{opacity:1} 96%{opacity:0} 100%{opacity:0} }
+      @keyframes l1 { 0%,12%{opacity:0} 14%{opacity:1} 92%{opacity:1} 96%{opacity:0} 100%{opacity:0} }
+      @keyframes l2 { 0%,21%{opacity:0} 23%{opacity:1} 92%{opacity:1} 96%{opacity:0} 100%{opacity:0} }
+      @keyframes l3 { 0%,30%{opacity:0} 32%{opacity:1} 92%{opacity:1} 96%{opacity:0} 100%{opacity:0} }
+      @keyframes l4 { 0%,40%{opacity:0} 42%{opacity:1} 92%{opacity:1} 96%{opacity:0} 100%{opacity:0} }
+      @keyframes l5 { 0%,49%{opacity:0} 51%{opacity:1} 92%{opacity:1} 96%{opacity:0} 100%{opacity:0} }
+      @keyframes l6 { 0%,58%{opacity:0} 60%{opacity:1} 92%{opacity:1} 96%{opacity:0} 100%{opacity:0} }
+      @keyframes l7 { 0%,67%{opacity:0} 69%{opacity:1} 92%{opacity:1} 96%{opacity:0} 100%{opacity:0} }
+      @keyframes l8 { 0%,76%{opacity:0} 79%{opacity:1} 92%{opacity:1} 96%{opacity:0} 100%{opacity:0} }
+
+      .row0 { opacity:0; animation: l0 16s ease-in-out infinite; }
+      .row1 { opacity:0; animation: l1 16s ease-in-out infinite; }
+      .row2 { opacity:0; animation: l2 16s ease-in-out infinite; }
+      .row3 { opacity:0; animation: l3 16s ease-in-out infinite; }
+      .row4 { opacity:0; animation: l4 16s ease-in-out infinite; }
+      .row5 { opacity:0; animation: l5 16s ease-in-out infinite; }
+      .row6 { opacity:0; animation: l6 16s ease-in-out infinite; }
+      .row7 { opacity:0; animation: l7 16s ease-in-out infinite; }
+      .row8 { opacity:0; animation: l8 16s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- window -->
+  <rect x="8" y="8" width="884" height="384" rx="14" class="win"/>
+  <rect x="8" y="8" width="884" height="384" rx="14" class="border"/>
+
+  <!-- title bar -->
+  <rect x="8" y="8" width="884" height="40" rx="14" fill="#161b22"/>
+  <rect x="8" y="34" width="884" height="14" fill="#161b22"/>
+  <circle cx="34" cy="28" r="6" fill="#ff5f56"/>
+  <circle cx="54" cy="28" r="6" fill="#ffbd2e"/>
+  <circle cx="74" cy="28" r="6" fill="#27c93f"/>
+  <text x="450" y="33" text-anchor="middle" class="titlebar-text">manav@devops-engineer: ~/production</text>
+
+  <!-- terminal lines -->
+  <g transform="translate(34,80)">
+    <text class="row0" y="0">
+      <tspan class="prompt">➜ ~ $</tspan><tspan class="out"> terraform apply -auto-approve</tspan>
+    </text>
+    <text class="row1" y="30">
+      <tspan class="dim">Plan: 12 to add, 0 to change, 0 to destroy</tspan>
+    </text>
+    <text class="row2" y="60">
+      <tspan class="path">aws_eks_cluster.main:</tspan><tspan class="out"> Creating...</tspan>
+    </text>
+    <text class="row3" y="90">
+      <tspan class="path">aws_eks_cluster.main:</tspan><tspan class="ok"> Creation complete after 9m12s</tspan>
+    </text>
+    <text class="row4" y="130">
+      <tspan class="prompt">➜ ~ $</tspan><tspan class="out"> kubectl rollout status deployment/api</tspan>
+    </text>
+    <text class="row5" y="160">
+      <tspan class="out">deployment "api" successfully rolled out</tspan>
+    </text>
+    <text class="row6" y="200">
+      <tspan class="prompt">➜ ~ $</tspan><tspan class="out"> kubectl get pods -n prod | grep Running | wc -l</tspan>
+    </text>
+    <text class="row7" y="230">
+      <tspan class="ok">15</tspan>
+    </text>
+    <text class="row8" y="275">
+      <tspan class="ok">✔ 15/15 services healthy</tspan><tspan class="dim">  ·  </tspan><tspan class="ok">99.9% uptime</tspan><tspan class="dim">  ·  </tspan><tspan class="ok">MTTR 28min</tspan>
+    </text>
+    <rect x="0" y="262" width="10" height="18" class="cursor cursorBlink"/>
+  </g>
+</svg>
