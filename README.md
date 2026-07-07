@@ -16,7 +16,7 @@
 
 <!-- SEO: plain, keyword-rich sentence for Google indexing. Doesn't affect the visual design. -->
 <p align="center">
-<sub>DevOps Engineer &amp; Cloud Engineer specializing in <b>AWS</b>, <b>Azure</b>, <b>Kubernetes (EKS/AKS)</b>, <b>Terraform</b>, <b>CI/CD (Jenkins, GitHub Actions, GitLab CI, ArgoCD)</b>, and <b>DevSecOps</b>. Based in Mumbai, India — open to remote and relocation opportunities.</sub>
+<sub>DevOps Engineer &amp; Cloud Engineer specializing in <b>AWS</b>, <b>Azure</b>, <b>Kubernetes (EKS/AKS)</b>, <b>Terraform</b>, <b>CI/CD (Jenkins, GitHub Actions, GitLab CI, ArgoCD)</b>, and <b>DevSecOps</b>. Based in Pune, India — open to remote and relocation opportunities.</sub>
 </p>
 
 ---
