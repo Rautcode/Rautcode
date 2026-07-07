@@ -1,12 +1,166 @@
-# 💫 About Me:
-🔭 I’m currently working on Cloud & DevOps projects<br>👯 I’m looking to collaborate on open-source DevOps tools & automation scripts<br>🤝 I’m looking for help with Kubernetes, Terraform & AWS/GCP/Azure<br>🌱 I’m currently learning Microsoft Azure, Docker, Kubernetes & CI/CD pipelines<br>💬 Ask me about DevOps, Cloud Computing, Linux, Shell Scripting & Docker<br>⚡ Fun fact: I automate everything… except making coffee! ☕😆
+<div align="center">
+
+<!-- Animated typing header -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=180&lines=Hi+%F0%9F%91%8B%2C+I'm+Manav+Raut;DevOps+%26+Cloud+Engineer+%E2%98%81%EF%B8%8F;Cut+deployment+failures+by+60%25%2C+MTTR+by+44%25;AWS+SAA+%26+GCP+Certified+%7C+K8s+%7C+Terraform+%7C+CI%2FCD" alt="Typing SVG" />
+</a>
+
+<!-- Wave banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1e3a5f&height=120&section=header&text=&fontSize=0" width="100%"/>
+
+<img src="https://komarev.com/ghpvc/?username=Rautcode&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile views" />
+&nbsp;
+<img src="https://img.shields.io/github/followers/Rautcode?label=Followers&style=for-the-badge&color=blue" alt="Followers" />
+
+</div>
+
+---
+
+## 💫 About Me
+
+```yaml
+👨‍💻 Role:                  Software Engineer (Cloud & DevOps) @ Evio Pvt. Ltd. — Siemens channel partner, Mumbai
+🎓 Certified:               AWS Solutions Architect – Associate (2026) · Google Cloud Practitioner (2025)
+🔭 Currently working on:    Zero-downtime EKS pipelines, GitOps rollouts & multi-cloud IaC modules
+👯 Looking to collaborate:  open-source DevOps tools & automation scripts
+🤝 Looking for help with:   Kubernetes, Terraform & AWS / GCP / Azure
+🌱 Currently learning:      Advanced Azure DevOps, ArgoCD GitOps & FinOps
+💬 Ask me about:            DevOps, Cloud Architecture, Kubernetes, CI/CD & Observability
+⚡ Fun fact:                 I automate everything… except making coffee ☕😆
+```
+
+<div align="center">
+
+![AWS SAA](https://img.shields.io/badge/AWS-Solutions_Architect_Associate-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-Practitioner-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+</div>
+
+---
+
+## 📈 Impact, By the Numbers
+
+<div align="center">
+
+| Metric | Result |
+|---|---|
+| 🚀 Deployment failures | **↓ 60%** via SonarQube + Trivy quality gates & blue-green EKS rollouts |
+| ⏱️ MTTR | **50 min → 28 min** through Python/Bash auto-remediation & structured RCA |
+| ⚡ Environment provisioning | **4 hrs → <30 min** (8× faster) with reusable Terraform modules & Pulumi |
+| 🔁 Release cycle time | **↓ 35%** across 8+ microservices in production |
+| 🔎 Mean time to detect | **↓ 60%** with Prometheus + Grafana + ELK + CloudWatch observability |
+| ✅ Production uptime | **99.9%** across 15+ services, zero-downtime blue-green deployments |
+
+</div>
+
+---
+
+## 🐍 My Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rautcode/Rautcode/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rautcode/Rautcode/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Rautcode/Rautcode/output/github-contribution-grid-snake.svg" width="100%"/>
+  </picture>
+</div>
+
+> ⚙️ This snake eats my contribution graph every day, automatically, via the GitHub Action in `.github/workflows/snake.yml`. See setup notes at the bottom.
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Rautcode&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rautcode&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Rautcode&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Rautcode&theme=tokyonight&no-frame=true&column=7&margin-w=8&margin-h=8" alt="Trophies"/>
+</div>
+
+---
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+<a href="https://github.com/Rautcode/cloud-native-monitoring">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rautcode&repo=cloud-native-monitoring&theme=tokyonight&hide_border=true" />
+</a>
+<a href="https://github.com/Rautcode/automated-k8s-terraform">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rautcode&repo=automated-k8s-terraform&theme=tokyonight&hide_border=true" />
+</a>
+<br/>
+<a href="https://github.com/Rautcode/DevSecOps-Platform-for-AI-Solution">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rautcode&repo=DevSecOps-Platform-for-AI-Solution&theme=tokyonight&hide_border=true" />
+</a>
+<a href="https://github.com/Rautcode/Enterprise-AI-ML-Pipeline-with-Multi-Cloud-Deployment">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rautcode&repo=Enterprise-AI-ML-Pipeline-with-Multi-Cloud-Deployment&theme=tokyonight&hide_border=true" />
+</a>
+
+</div>
+
+- 🔭 **[Cloud-Native Monitoring & Observability Platform](https://github.com/Rautcode/cloud-native-monitoring)** — Kubernetes homelab with Prometheus + Grafana + Loki, multi-namespace alerting, and a custom SLO dashboard simulating production SRE workflows.
+- ⚙️ **[Automated Kubernetes Infrastructure with Terraform](https://github.com/Rautcode/automated-k8s-terraform)** — Fully automated EKS provisioning (VPC, node groups, IAM, Helm, GitHub Actions) — 70% faster setup, zero manual steps.
+- 🔐 **[DevSecOps Security Pipeline](https://github.com/Rautcode/DevSecOps-Platform-for-AI-Solution)** — End-to-end pipeline with SonarQube, Trivy, and Vault secrets rotation in Jenkins/GitHub Actions — 70% fewer vulnerability detection gaps.
 
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https:/linkedin.com/in/manav-raut) 
 
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=flat&logo=powershell&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=flat&logo=microsoftazure&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=flat&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=flat&logo=flask&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=flat&logo=nginx&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=flat&logo=jenkins&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=flat&logo=Amazon%20DynamoDB&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=flat&logo=gitlab&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=flat&logo=gitlab&logoColor=white) ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=flat&logo=ansible&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=flat&logo=grafana&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat&logo=kubernetes&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=flat&logo=powerbi&logoColor=black) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=Prometheus&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=flat&logo=terraform&logoColor=white)
+---
+
+## 🧭 Experience Timeline
+
+```
+2025 – Present   Software Engineer (Cloud & DevOps) @ Evio Pvt. Ltd., Mumbai
+2024 – 2025      DevOps & Cloud Engineer Intern @ Gigante Technologies, Pune
+2024             AWS Cloud Infrastructure Engineer @ Internship Studio, Pune
+2023             DevOps Trainee @ Technogeeks, Pune
+```
+
+---
+
+## 🧰 Tech Stack
+
+<div align="center">
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,terraform,ansible,jenkins,githubactions,grafana,prometheus,linux,bash,powershell,python,git,github,gitlab,mysql,dynamodb,sqlite,tensorflow,django,flask,nginx,apache,bootstrap,html&perline=10" />
+</a>
+
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+<a href="https://linkedin.com/in/manav-raut">
+  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="mailto:manav.p.raut27@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://github.com/Rautcode">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
 
 ### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,100:0d1117&height=100&section=footer" width="100%"/>
+
+</div>
