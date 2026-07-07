@@ -14,6 +14,11 @@
 
 </div>
 
+<!-- SEO: plain, keyword-rich sentence for Google indexing. Doesn't affect the visual design. -->
+<p align="center">
+<sub>DevOps Engineer &amp; Cloud Engineer specializing in <b>AWS</b>, <b>Azure</b>, <b>Kubernetes (EKS/AKS)</b>, <b>Terraform</b>, <b>CI/CD (Jenkins, GitHub Actions, GitLab CI, ArgoCD)</b>, and <b>DevSecOps</b>. Based in Mumbai, India — open to remote and relocation opportunities.</sub>
+</p>
+
 ---
 
 ## 💫 About Me
@@ -104,7 +109,7 @@
 <div align="center">
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,terraform,ansible,jenkins,githubactions,grafana,prometheus,linux,bash,powershell,python,git,github,gitlab,mysql,dynamodb,sqlite,tensorflow,django,flask,nginx,apache,bootstrap,html&perline=10" />
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,terraform,ansible,jenkins,githubactions,grafana,prometheus,linux,bash,powershell,python,git,github,gitlab,mysql,dynamodb,sqlite,tensorflow,django,flask,nginx,react,bootstrap,tailwind,notion,postgresql,ai,redis,vercel,redhat,figma,html&perline=10" />
 </a>
 
 </div>
