@@ -69,46 +69,20 @@
 
 ---
 
-## 📊 GitHub Stats
+## 🛰️ Live Infrastructure Flow
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Rautcode&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rautcode&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
-</div>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Rautcode&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</div>
+<!-- Custom animated multi-cloud pipeline diagram — hand-built, particles flow along the paths -->
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Rautcode&theme=tokyonight&no-frame=true&column=7&margin-w=8&margin-h=8" alt="Trophies"/>
+<img src="https://raw.githubusercontent.com/Rautcode/Rautcode/main/assets/architecture-flow.svg" width="100%" alt="Animated multi-cloud to Kubernetes to observability pipeline"/>
+
 </div>
 
 ---
+## Terminal
 
-## 🚀 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/Rautcode/cloud-native-monitoring">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rautcode&repo=cloud-native-monitoring&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/Rautcode/automated-k8s-terraform">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rautcode&repo=automated-k8s-terraform&theme=tokyonight&hide_border=true" />
-</a>
-<br/>
-<a href="https://github.com/Rautcode/DevSecOps-Platform-for-AI-Solution">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rautcode&repo=DevSecOps-Platform-for-AI-Solution&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/Rautcode/Enterprise-AI-ML-Pipeline-with-Multi-Cloud-Deployment">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rautcode&repo=Enterprise-AI-ML-Pipeline-with-Multi-Cloud-Deployment&theme=tokyonight&hide_border=true" />
-</a>
-
-</div>
-
-- 🔭 **[Cloud-Native Monitoring & Observability Platform](https://github.com/Rautcode/cloud-native-monitoring)** — Kubernetes homelab with Prometheus + Grafana + Loki, multi-namespace alerting, and a custom SLO dashboard simulating production SRE workflows.
-- ⚙️ **[Automated Kubernetes Infrastructure with Terraform](https://github.com/Rautcode/automated-k8s-terraform)** — Fully automated EKS provisioning (VPC, node groups, IAM, Helm, GitHub Actions) — 70% faster setup, zero manual steps.
-- 🔐 **[DevSecOps Security Pipeline](https://github.com/Rautcode/DevSecOps-Platform-for-AI-Solution)** — End-to-end pipeline with SonarQube, Trivy, and Vault secrets rotation in Jenkins/GitHub Actions — 70% fewer vulnerability detection gaps.
+<img src="https://raw.githubusercontent.com/Rautcode/Rautcode/main/assets/terminal-header.svg" width="100%" alt="Live deployment terminal animation"/>
 
 
 
